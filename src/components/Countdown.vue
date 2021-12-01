@@ -24,14 +24,14 @@
 </template>
 
 <script>
-// Default Loading Page Date:  13d, 8h, 12m, 5s in the future
+// Default Loading Page End Date:  13d, 8h, 12m, 5s in the future
 const default_end_date = new Date()
 let default_seconds =
   default_end_date.getSeconds() + 5 + 12 * 60 + 8 * 60 * 60 + 13 * 24 * 60 * 60
 default_end_date.setSeconds(default_seconds)
 
-const date = null // Set custom date string here ex. '03/25/2022'
-// const date = '03/25/2022'
+const date = null // ** Set custom date string here ex. '01/05/2022' **
+// const date = '01/05/2022'
 
 const end_date = date ? new Date(date) : default_end_date
 
