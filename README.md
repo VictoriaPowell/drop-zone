@@ -1,7 +1,31 @@
 # Drop Zone
 Diff technical interview question.
 
-## Instructions
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+## Instructions/Requirements
+
+### Instructions
 * There are no time restrictions.
 * The exercise is open-book, feel free to use any resource available to you.
 * Use the frameworks of your choice to build a solution that meets the requirements (example: jQuery, Bootstrap, Vue, etc).
@@ -9,12 +33,12 @@ Diff technical interview question.
 
 You can work on this solution in one of two ways: by forking this repository, or sending your zip file.
 
-### Forking
+#### Forking
 1. Fork the repository to your own account.
 2. Build a web page that follows the technical requirements below.
 3. Send a link to your repository so it can be cloned.
 
-### Zip
+#### Zip
 1. Clone the repository to your local environment.
 2. Build a web page that follows the technical requirements below.
 3. Send a zip file of the finished solution.
